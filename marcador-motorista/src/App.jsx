@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './home/Home';
+import Type from './type/Type';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <div id='body'>
           <Routes>
             <Route path='/' element={<Home />}/>
+            <Route path='/type' element={<Type />}/>
           </Routes>
         </div>
         <div id='footer'>

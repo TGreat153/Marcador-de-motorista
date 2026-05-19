@@ -3,7 +3,7 @@ function Home() {
   return (
     <>
         <h1>Olá, deseja marcar uma viagem?</h1>
-        <button type="button" class="btn btn-primary">Marcar motorista</button>
+        <a type="button" className="btn btn-dark" href="/type">Marcar motorista</a>
     </>
   )
 }

@@ -1,11 +1,15 @@
 #body{
-    margin-bottom: 80vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
     justify-content: center;
 }
 
-#footer{
-    max-height: 10vm;
+.forms{
+    flex-direction: column;
+
+}
+
+.radio{
+    flex-direction: column;
 }
